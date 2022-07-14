@@ -1,13 +1,14 @@
 body{
-    background-color:  rgb(239, 209, 181);;
+    background-color: #F7CCAC;
     margin:0;
+    padding: 0;
 }
 
 
 .div1{
     /* text-align: center; */
     /* padding: 20px; */
-    color: #495C83;
+    color: #3A3845;
     font-family: 'Source Serif Pro', serif;
     /* position: absolute; */
     margin: 100px auto 50px auto;
@@ -23,8 +24,31 @@ body{
 
 }
 
+hr{
+    border: dotted #495C83;
+    width: 2%;
+    height: 0px;
+
+}
+
 .skills{
     
+}
+
+
+
+.contact-me{
+    width: 30%;
+    /* text-align: center; */
+    margin: 0px auto;
+    line-height: 2;
+}
+
+.profile{
+    width: 50%;
+    /* text-align: center; */
+    margin: 0px auto;
+    line-height: 2;
 }
 
 .skill-row{
@@ -37,6 +61,15 @@ body{
 .cont_new{
     color: #4A4E69;
     text-align: center;
+}
+
+h2{
+    font-family:monospace;
+    font-size: 2.4rem;
+}
+
+p{
+    font-size: 1.2rem;
 }
 
 .container_top{
@@ -69,7 +102,7 @@ h1{
 }
 
 .profile img{
-    height: 200px;
+    height: 250px;
 }
 
 .s_img{
@@ -77,3 +110,43 @@ h1{
     float: left;
     margin-right: 30px;
 }
+
+.s_img2{
+    height: 100px;
+    float: right;
+    margin-left: 30px;
+}
+
+
+/* btn code copied */
+
+.btn {
+    -webkit-border-radius: 13;
+    -moz-border-radius: 13;
+    border-radius: 13px;
+    font-family: Courier New;
+    color: #3A3845;
+    font-size: 20px;
+    background: #C69B7B;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #c2b2aa;
+    text-decoration: none;
+  }
+
+  .bottom-container{
+    padding: 30px 0px 10px 0px;
+    margin:50px 0px 0px 0px ;
+    background-color: #826F66;
+  }
+
+  .bottom-container .footer-link{
+    margin: 0px 30px;
+    font-family: monospace;
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: #F7CCAC;
+  }
